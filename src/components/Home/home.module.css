@@ -1,0 +1,66 @@
+.container {
+    height: 100%;
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(to right, #9900ff, #cc80ff);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .innerBox {
+    min-width: 480px;
+    height: fit-content;
+    width: fit-content;
+    background-color: #fff;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .innerBox h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #444;
+  }
+  
+  .innerBox a {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    color: #444;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .innerBox a:hover {
+    color: #9900ff;
+  }
+  
+  .innerBox input[type="email"],
+  .innerBox input[type="password"] {
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+  }
+  
+  .skip {
+    outline: none;
+    border: none;
+    background-color: #9900ff;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 10px 16px;
+    width: 100%;
+    transition: 100ms;
+    cursor: pointer;
+  }
+  
